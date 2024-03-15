@@ -52,8 +52,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "84fa1801-d4e8-4f1a-b375-622a5dc48349"
+        "projectId": "2eac25e3-476c-4e63-bb17-3dcb0b8292f6"
       }
-    }
+    },
+    "owner": "valentinr14"
   }
 }

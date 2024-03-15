@@ -16,7 +16,7 @@ async function sendPushNotification(expoPushToken) {
     to: expoPushToken,
     sound: "default",
     title: "Mi primer notificación",
-    body: "Hola Erick Mireles Merchant, bienvenido.",
+    body: "Hola Tonotos.",
     data: { someData: "Comencemos" },
   };
   await fetch("https://exp.host/--/api/v2/push/send", {
