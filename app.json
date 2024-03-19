@@ -23,7 +23,7 @@
         "NSPhotoLibraryAddUsageDescription": "Allow $(PRODUCT_NAME) to save photos."
       },
       "config":{
-        "googleMapsApiKey": "AIzaSyALjT_nXWV81TuFd74JUcQUnUH5JJfru24"
+        "googleMapsApiKey": "AIzaSyBX-MqMlPKL03PoN9-vg21WL3eEy0EFRFI"
       }
     },
     "android": {
@@ -42,7 +42,7 @@
       "package": "com.valentinr14.restaurante",
       "config":{
         "googleMaps": {
-          "apiKey": "AIzaSyBIGgZ9Hj1_SWlgjQ1phbib1GIc6yOWpKQ"
+          "apiKey": "AIzaSyDKJvosLlgRLvL7hPYkbqPemNs-GXVv9P0"
         }
       }
     },
