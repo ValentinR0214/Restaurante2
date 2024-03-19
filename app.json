@@ -15,11 +15,15 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.valentinr14.restaurante",
       "supportsTablet": true,
       "infoPlist": {
         "NSCameraUsageDescription": "Se necesita acceso a la cámara para tomar fotos",
         "NSPhotoLibraryUsageDescription": "Allow $(PRODUCT_NAME) to access your photos.",
         "NSPhotoLibraryAddUsageDescription": "Allow $(PRODUCT_NAME) to save photos."
+      },
+      "config":{
+        "googleMapsApiKey": "AIzaSyALjT_nXWV81TuFd74JUcQUnUH5JJfru24"
       }
     },
     "android": {
@@ -35,7 +39,12 @@
         "android.permission.WRITE_EXTERNAL_STORAGE",
         "android.permission.ACCESS_MEDIA_LOCATION"
       ],
-      "package": "com.valentinr14.restaurante"
+      "package": "com.valentinr14.restaurante",
+      "config":{
+        "googleMaps": {
+          "apiKey": "AIzaSyBIGgZ9Hj1_SWlgjQ1phbib1GIc6yOWpKQ"
+        }
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"

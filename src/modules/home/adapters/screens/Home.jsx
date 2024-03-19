@@ -2,9 +2,12 @@ import { StyleSheet, View, FlatList } from 'react-native'
 import React, {useEffect, useState} from 'react';
 import FlatListRestaurants from './components/FlatListRestaurants';
 import { collection, getFirestore, getDocs } from 'firebase/firestore';
+import RestauranDetail from './RestauranDetail';
 
 
-export default function Home() {
+export default function Home(props) {
+const {navigation} = props;
+
   const  [restaurants, setRestaurants] = useState(null);
   const  [showLoading, setShowLoading] = useState(true);
 
@@ -39,6 +42,7 @@ export default function Home() {
       title={item.title}
       description={item.description}
       rating={item.rating}
+      action={() =>navigation.navigate ('RestauranDetail', { item})}
       />
       }
         keyExtractor={item => item.id}
